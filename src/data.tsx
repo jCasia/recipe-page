@@ -16,16 +16,16 @@ const ingredient: Array<string> = [
 
 const instruction: Array<Instruction> = [
   {
-    step: 'beat the eggs',
-    text: 'In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture',
+    step: 'Beat the eggs',
+    text: 'In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.',
   },
   {
     step: 'Heat the pan',
-    text: 'Place a non-stick frying pan over medium heat and butter or oil',
+    text: 'Place a non-stick frying pan over medium heat and butter or oil.',
   },
   {
     step: 'Cook the omelette',
-    text: 'Once the butter is melted and bubbling, pour in the eggs, Tilt the pan to ensure the eggs evenly coat the surface',
+    text: 'Once the butter is melted and bubbling, pour in the eggs, Tilt the pan to ensure the eggs evenly coat the surface.',
   },
   {
     step: 'Add fillings (optional)',
@@ -33,7 +33,7 @@ const instruction: Array<Instruction> = [
   },
   {
     step: 'Fold and serve',
-    text: 'As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate',
+    text: 'As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.',
   },
   {
     step: 'Enjoy',

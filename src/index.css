@@ -16,4 +16,10 @@
     color: theme('colors.colorDarkChar');
     font-weight: theme('fontWeight.bold');
   }
+  .heading {
+    font-family: theme('fontFamily.fontYoungSerif');
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: theme('colors.colorNutmeg');
+  }
 }
