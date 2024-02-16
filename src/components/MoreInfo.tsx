@@ -11,13 +11,11 @@ const MoreInfo: FC<MoreInfoProps> = ({
   return (
     <div className='flex flex-col '>
       <div className='flex flex-col divide-solid border-b-2'>
-        <h2 className='font-fontYoungSerif text-2xl text-colorNutmeg'>
-          Ingredients
-        </h2>
+        <h2 className='heading'>Ingredients</h2>
         <ul className='list-disc flex flex-col gap-2 p-6 '>
           {ingredient.map((indivual, i) => {
             return (
-              <li key={i} className='pl-3 text-sm'>
+              <li key={i} className='pl-3 text-sm lgtablet:text-base'>
                 {indivual}
               </li>
             );
@@ -30,7 +28,7 @@ const MoreInfo: FC<MoreInfoProps> = ({
           {instruction.map((indivual, i) => {
             const { step, text } = indivual;
             return (
-              <li key={i} className='text-sm font-med pl-3'>
+              <li key={i} className='text-sm lgtablet:text-base font-med pl-3'>
                 <span className='font-bold text-colorWengeBrown'>{step}: </span>
                 {text}
               </li>
@@ -38,14 +36,14 @@ const MoreInfo: FC<MoreInfoProps> = ({
           })}
         </ol>
       </div>
-      <div className=' flex flex-col gap-4 py-6'>
+      <div className=' flex flex-col gap-4 py-6 lgtablet:pb-0'>
         <h2 className='heading'>Nutrition</h2>
-        <p className='text-sm'>
+        <p className='text-sm lgtablet:text-base'>
           The table below shows nutritional values per serving without the
           additional fillings.
         </p>
         <table>
-          <tbody className='text-sm'>
+          <tbody className='text-sm lgtablet:text-base'>
             <tr className='border-b-2  '>
               <th scope='row' className='font-normal py-3 pl-8 text-left '>
                 Calories

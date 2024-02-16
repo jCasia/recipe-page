@@ -19,6 +19,7 @@ export default {
       },
       screens: {
         mobilesm: '325px',
+        lgtablet: '725px',
       },
     },
   },

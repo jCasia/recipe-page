@@ -22,4 +22,10 @@
     line-height: 2rem;
     color: theme('colors.colorNutmeg');
   }
+
+  @media (min-width: 725px) {
+    .heading {
+      font-size: 1.75rem;
+    }
+  }
 }
